@@ -1,47 +1,47 @@
 void setup() {
   // put your setup code here, to run once:
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(11, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(11, HIGH);
   delay(500);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(11, LOW);
   delay(1000);
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(11, HIGH);
   delay(500);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(11, LOW);
   delay(1000);
-   digitalWrite(LED_BUILTIN, HIGH);
+   digitalWrite(11, HIGH);
   delay(500);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000);
+  digitalWrite(11, LOW);
+  delay(2000);
 
-   digitalWrite(LED_BUILTIN, HIGH);
+   digitalWrite(11, HIGH);
   delay(1500);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(11, LOW);
   delay(1000);
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(11, HIGH);
   delay(1500);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(11, LOW);
   delay(1000);
-   digitalWrite(LED_BUILTIN, HIGH);
+   digitalWrite(11, HIGH);
   delay(1500);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000);
+  digitalWrite(11, LOW);
+  delay(2000);
 
-   digitalWrite(LED_BUILTIN, HIGH);
+   digitalWrite(11, HIGH);
   delay(500);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(11, LOW);
   delay(1000);
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(11, HIGH);
   delay(500);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(11, LOW);
   delay(1000);
-   digitalWrite(LED_BUILTIN, HIGH);
+   digitalWrite(11, HIGH);
   delay(500);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000);
+  digitalWrite(11, LOW);
+  delay(2000);
  
 }
