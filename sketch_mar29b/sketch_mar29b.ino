@@ -1,3 +1,4 @@
+/teste com led RGB
 void setup() {
   pinMode(7, OUTPUT);
   pinMode(6, OUTPUT);
