@@ -21,5 +21,5 @@ void loop() {
     delay(700);
     tone(6, 0);
   }
-
+  delay(1000);
 }
