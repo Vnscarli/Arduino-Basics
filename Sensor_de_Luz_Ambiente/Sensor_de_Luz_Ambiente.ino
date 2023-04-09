@@ -8,7 +8,7 @@ void setup() {
 }
 
 void loop() {
-  if(analogRead(A0)<550){
+  if(analogRead(A0)<450){
     digitalWrite(13, HIGH);
     digitalWrite(12, LOW);
   }
